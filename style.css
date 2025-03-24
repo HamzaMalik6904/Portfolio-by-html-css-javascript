@@ -1,0 +1,511 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body {}
+
+nav {
+    height: 14vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 40px 4rem;
+    box-shadow: -6px 3px 15px rgb(112, 193, 224);
+    position: sticky;
+    top: 0;
+    transition: 0.8s;
+}
+
+nav .logo {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+nav .logo::first-letter {
+    color: skyblue;
+}
+
+nav #menulinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    padding: 22px;
+    font-weight: 500;
+}
+.menu-icon{
+    display: none;
+}
+
+.hero-section {
+    height: 86vh;
+    background-color: #5f6a70;
+}
+
+.hero {
+    padding: 80px 4rem;
+    display: flex;
+    gap: 260px;
+}
+nav ul li a:hover{
+    background-color: skyblue;
+}
+
+.left {
+    height: 60vh;
+    width: 37vw;
+
+}
+
+.right {
+    height: 60vh;
+    width: 37vw;
+
+}
+
+.left h1 {
+    font-size: 44px;
+    color: #ffffff;
+
+}
+
+.left h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.left p {
+    color: #ffffff;
+    font-size: 17px;
+    padding-top: 11px;
+}
+
+.btn {
+    padding-block: 8px;
+}
+.subbtn ul{
+    display: flex;
+    gap: 11px;
+}
+.subbtn ul button{
+    background-color: skyblue;
+    border: blue;
+    box-shadow: 0px 0px 8px rgb(75, 165, 201);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.btn button {
+    size: 33px;
+    padding: 15px 32px;
+    border-radius: 6px;
+    background-color: rgb(118, 204, 238);
+    box-shadow: 0px 0px 12px rgb(75, 165, 201);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px rgb(38, 38, 228);
+    cursor: pointer;
+}
+
+.subbtn {
+    padding-top: 14px;
+    cursor: pointer;
+
+}
+
+.ul .button {}
+
+.right img {
+    width: 33vw;
+    height: 68vh;
+    padding-bottom: 22px;
+}
+
+.next {
+    padding: 40px 13rem;
+    height: 46vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.next h1 {
+    color: skyblue;
+    padding-bottom: 13px;
+}
+
+.next p {
+    color: #9aa9b3;
+    padding-top: 11px;
+}
+
+.next .btn {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.skills {
+    padding: 90px 5rem;
+    height: 69vh;
+    background-color: #5f6a70;
+    display: flex;
+
+
+}
+
+.skill-items {
+    display: flex;
+}
+
+.left1 {
+    height: 40vh;
+    width: 39vw;
+
+
+}
+
+.left1 img {
+    width: 80px;
+    flex-wrap: wrap;
+}
+
+.right1 {
+    height: 45vh;
+    width: 43vw;
+
+}
+
+.skill-items {
+    gap: 33px;
+}
+
+
+.right1 .html .head {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.right1 .html .p1 {
+    border: 2px solid black;
+    height: 2vh;
+    background-color: black;
+    border-radius: 8px;
+    position: relative;
+}
+
+.right1 .html .p2 {
+    border: 2px solid black;
+    height: 2vh;
+    width: 39vw;
+    background-color: skyblue;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;  /* Aligns p2 to the top of p1 */
+    left: 0; /* Aligns p2 to the left of p1 */
+}
+    .right1 .css .head {
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+
+    .right1 .css .p1 {
+        border: 2px solid black;
+        height: 2vh;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .right1 .css .p2 {
+        border: 2px solid black;
+        height: 2vh;
+        width: 36vw;
+        background-color: skyblue;
+        border-radius: 8px;
+        position: absolute;
+        
+    }
+
+    .right1 .js .head{
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+    .right1 .js .p1{
+        border: 2px solid black;
+        height: 2vh;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+    }
+    .right1 .js .p2{
+        border: 2px solid black;
+        height: 2vh;
+        width: 31vw;
+        background-color: skyblue;
+        border-radius: 8px;
+        position: absolute;
+        
+    }
+
+    .right1 .react .head{
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+    .right1 .react .p1{
+        border: 2px solid black;
+        height: 2vh;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+    }
+    .right1 .react .p2{
+        border: 2px solid black;
+        height: 2vh;
+        width: 28vw;
+        background-color: skyblue;
+        border-radius: 8px;
+        position: absolute;
+        
+    }
+    
+
+    .right1 .nodejs .head{
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+    .right1 .nodejs .p1{
+        border: 2px solid black;
+        height: 2vh;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+    }
+    .right1 .nodejs .p2{
+        border: 2px solid black;
+        height: 2vh;
+        width: 32vw;
+        background-color: skyblue;
+        border-radius: 8px;
+        position: absolute;
+        
+    }
+    
+.projects{
+    height: 70vh;
+    padding: 40px 2rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+   
+}
+.project-items h1{
+    color: #ffffff;
+    padding-bottom: 12px;
+    font-size: 40px;
+}
+.project-items img{
+    width: 26vw;
+    height: 49vh;
+    border-radius: 30px;
+    padding: 12px;   
+    transition: 0.4s;
+
+
+}
+.project-items img:hover{
+    width: 32vw;
+    height: 52vh;
+
+}
+.contact{
+    padding: 100px 3rem;
+    height: 70vh;
+    background-color: #5f6a70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info .name{
+    padding-bottom: 12px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info .email{
+    padding-bottom: 12px;
+    color: #ffffff;
+}
+.info .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.info input{
+    padding: 7px 9rem;
+    background-color: #000000;
+    border-radius: 12px;
+    border: 2px solid rgb(11, 76, 102);
+    box-shadow: 0px 0px 9px rgb(75, 165, 201);
+    color: #ffffff;
+}
+.subject input{
+    padding: 50px 9rem;
+    background-color: #000000;
+    border-radius: 12px;
+    border: 2px solid rgb(11, 76, 102);
+    box-shadow: 0px 0px 9px rgb(75, 165, 201);
+
+}
+.about {
+    width: 360px;
+    
+    
+}
+.extra{
+    padding: 40px 1rem;
+    height: 46vh;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 38px;
+}
+.links ul h1{
+    padding-bottom: 12px;
+}
+.menu-icon{
+    font-size: 23px;
+}
+
+@media (max-width:900px) {
+
+    .skills{
+        
+        height: 110vh;
+    }
+    .skill-items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+}
+@media (max-width:800px) {
+   
+    nav #menulinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        overflow: hidden;
+        
+    }
+    nav ul li{
+        padding: 20px;
+
+    }
+    .menu-icon{
+        display: block;
+    }
+    #Home #About #skill #project #cont{
+        padding: 40px 2rem;
+    }
+    .menu-icon.left, .menu-icon .right{
+        width: 100%;
+        
+    }
+   
+    nav{
+        padding: 1rem 2rem;
+    }
+    .hero{
+        padding: 80px 10px;
+        display: flex;
+        gap: 100px;
+    }
+    .right{
+        height: 30vh;
+    }
+
+
+
+}
+@media (max-width:997px) {
+    .hero-section{
+        height: 120vh;
+        padding: 100px 0px;
+
+    }
+    
+}
+@media (max-width:769px) {
+    .next{
+        height: 80vh;
+    }
+    
+}
+@media (max-width:586px) {
+    .next{
+        padding: 30px 2rem;
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .extra{
+        height: 90vh;
+    }
+    .info input{
+        padding: 7px 5rem;
+    }
+    .info .subject input{
+        padding: 40px 5rem;
+        
+    }
+   
+}
+

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamza's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -13,18 +13,18 @@
             Portfolio
         </div>
         <ul id="menulinks">
-            
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#skill">Skill</a></li>
+            <li><a href="#certificates">Certificates</a></li>
             <li><a href="#project">Portfolio</a></li>
             <li><a href="#cont">Contact</a></li>
-        
         </ul>
         <div class="menu-icon">
             <i class="fa-solid fa-bars" id="menu-icon"></i>
         </div>
     </nav>
+    
     <section id="Home" class="hero-section">
         <div class="hero">
             <div class="left">
@@ -37,25 +37,17 @@
                 <div class="subbtn">
                     <ul>
                         <button><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></button>
-                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
-                            <path d="M7 10V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M11 13V17M11 13C11 11.3431 12.3431 10 14 10C15.6569 10 17 11.3431 17 13V17M11 13V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M7.00801 7L6.99902 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                        </svg></button>
-                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
-                            <path d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg></button>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none"><path d="M7 10V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M11 13V17M11 13C11 11.3431 12.3431 10 14 10C15.6569 10 17 11.3431 17 13V17M11 13V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M7.00801 7L6.99902 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" /></svg></button>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none"><path d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
                     </ul>
                 </div>
-
             </div>
             <div class="right">
-                <img src="Profile.png" alt="" >
+                <img src="pfm.png" alt="Profile Image">
             </div>
-            
         </div>
     </section>
+    
     <div id="About" class="next">
         <h1>About me</h1>
         <h3>Experienced Web Development</h3>
@@ -64,171 +56,178 @@
             <button>View Portfolio</button>
         </div>
     </div>
+    
     <section id="skill" class="skills">
         <div class="skill-items">
-        <div class="left1">
-            <img src="html-5.png" alt="">
-            <img src="css-3.png" alt="">
-            <img src="js.png" alt="">
-            <img src="react.png" alt="">
-            <img src="bootstrap.png" alt="">
-            <img src="node-js.png" alt="">
-            <img src="mongodb.png" alt="">
-            <img src="MUI.png" alt="">
-            <img src="tailwind.png" alt="">
-        </div>
-        <div class="right1">
-            <div class="html">
-                <div class="head">
-                    <h3>Html</h3>
-                    <h3>94%</h3>
-                </div>
-                <div class="p1">
-                    <div class="p2">
-
-                    </div>
-                </div>
-
-
+            <div class="left1">
+                <img src="html-5.png" alt="HTML">
+                <img src="css-3.png" alt="CSS">
+                <img src="js.png" alt="JavaScript">
+                <img src="react.png" alt="React">
+                <img src="bootstrap.png" alt="Bootstrap">
+                <img src="node-js.png" alt="Node.js">
+                <img src="mongodb.png" alt="MongoDB">
+                <img src="MUI.png" alt="Material UI">
+                <img src="tailwind.png" alt="Tailwind">
             </div>
-            <br>
-            <div class="css">
-                <div class="head">
-                    <h3>Css</h3>
-                    <h3>84%</h3>
-                </div>
-                <div class="p1">
-                    <div class="p2">
-
+            <div class="right1">
+                <div class="skill-bar">
+                    <div class="head">
+                        <h3>HTML</h3>
+                        <h3>94%</h3>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress" style="width: 94%;"></div>
                     </div>
                 </div>
-
-            </div>
-            <br>
-            <div class="js">
-                <div class="head">
-                    <h3>Java Script</h3>
-                    <h3>72%</h3>
-                </div>
-                <div class="p1">
-                    <div class="p2">
-
+                <div class="skill-bar">
+                    <div class="head">
+                        <h3>CSS</h3>
+                        <h3>84%</h3>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress" style="width: 84%;"></div>
                     </div>
                 </div>
-
-            </div>
-            <br>
-            <div class="react">
-                <div class="head">
-                    <h3>React</h3>
-                    <h3>64%</h3>
-                </div>
-                <div class="p1">
-                    <div class="p2">
-
+                <div class="skill-bar">
+                    <div class="head">
+                        <h3>JavaScript</h3>
+                        <h3>72%</h3>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress" style="width: 72%;"></div>
                     </div>
                 </div>
-
-            </div>
-            <br>
-            <div class="nodejs">
-                <div class="head">
-                    <h3>Node Js</h3>
-                    <h3>72%</h3>
-                </div>
-                <div class="p1">
-                    <div class="p2">
+                <div class="skill-bar">
+                    <div class="head">
+                        <h3>React</h3>
+                        <h3>64%</h3>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress" style="width: 64%;"></div>
                     </div>
                 </div>
-
+                <div class="skill-bar">
+                    <div class="head">
+                        <h3>Node.js</h3>
+                        <h3>72%</h3>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress" style="width: 72%;"></div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+<section id="certificates" class="certificates">
+    <h1>MY CERTIFICATIONS</h1>
+    <div class="certificate-items">
+        <div class="certificate-card">
+            <img src="Certificate.PNG" alt="Responsive Web Design Certification">
+            <div class="certificate-info">
+                <h3>Responsive Web Design</h3>
+                <p>Issued by freeCodeCamp</p>
+                <p>Completed: February 26, 2025</p>
+                <a href="https://freecodecamp.org/certification/fccf8783573-2298-4bfe-89e9-19bee82cd954/responsive-web-design" target="_blank" class="verify-btn">Verify Certificate</a>
+            </div>
+        </div>
+    
     </div>
-    </section>
+</section>
+    
     <section id="project" class="projects">
+        <h1>MY PROJECTS</h1>
         <div class="project-items">
-            <h1>MY PROJECTS</h1>
-            <img src="portfolio1.jpg" alt="">
-            <img src="portfolio2.jpg" alt="">
-            <img src="portfolio3.jpg" alt="">
+            <img src="portfolio1.jpg" alt="Project 1">
+            <img src="portfolio2.jpg" alt="Project 2">
+            <img src="portfolio3.jpg" alt="Project 3">
         </div>
     </section>
+    
     <footer>
         <div id="cont" class="contact">
             <div class="info">
-                <div class="name"> 
-
-                <input type="text" id="button" placeholder="Name">
-            </div> 
-            <div class="email">
-                <input type="text" id="email" placeholder="Email">
-
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject" class="subject">
+                <div class="btn">
+                    <button>Send Messages</button>
+                </div>
             </div>
-            <div class="subject">
-                <input type="text" id="subject" placeholder="Subject">
-
-            </div>
-            <div class="btn">
-                <button>Send Messages</button>
-            </div>
-            </div>
-
         </div>
     </footer>
+    
     <section class="extra">
         <div class="links">
             <div class="link1">
                 <ul>
                     <h1>Directs</h1>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#cont">Contact Me</a></li>
                 </ul>
             </div>
             <div class="link2">
                 <ul>
-                    <h1>Social Acoounts</h1>
-                    <li><a href="">Linked in</a></li>
-                    <li><a href="">Github</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">X</a></li>
-
+                    <h1>Social Accounts</h1>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
                 </ul>
             </div>
-                <div class="link3">
-                    <UL>
+            <div class="link3">
+                <ul>
                     <h1>Languages</h1>
-                    <li><a href="">Html</a></li>
-                    <li><a href="">Css</a></li>
-                    <li><a href="">Java-Script</a></li>
-                    <li><a href="">React</a></li>
-                    <li><a href="">Node-js</a></li>
-                </UL>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">React</a></li>
+                    <li><a href="#">Node.js</a></li>
+                </ul>
             </div>
         </div>
         <div class="copyright">
-            <p> &copy; all right are reserved by @mhamzamalik</p>
-            
+            <p>&copy; All rights reserved by @mhamzamalik</p>
         </div>
     </section>
+
     <script>
-        let menulinks= document.getElementById("menulinks")
-        let menuicon= document.getElementById("menu-icon")
-        menulinks.style.maxHeight='0px'
-        menuicon.addEventListener("click",() =>{
-            if( menulinks.style.maxHeight==='0px')
-            {
-                menulinks.style.maxHeight ='350px'
-            }
-            else{
-                menulinks.style.maxHeight='0px'
+        const menuIcon = document.getElementById("menu-icon");
+        const menuLinks = document.getElementById("menulinks");
 
-            }
+        menuIcon.addEventListener("click", () => {
+            menuLinks.classList.toggle("active");
+        });
 
-        })
+        document.querySelectorAll('#menulinks a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuLinks.classList.remove('active');
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.style.height = '70px';
+                nav.style.boxShadow = '0 5px 15px rgba(112, 193, 224, 0.3)';
+            } else {
+                nav.style.height = '80px';
+                nav.style.boxShadow = '0 3px 15px rgba(112, 193, 224, 0.5)';
+            }
+        });
     </script>
 </body>
 </html>
